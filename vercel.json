@@ -1,0 +1,9 @@
+{
+  "name": "bluepeak-strategy-generator",
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  }
+}
