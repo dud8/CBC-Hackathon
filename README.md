@@ -1,8 +1,12 @@
 # BluePeak Workflow Engine
 
-*Created for IU CBC's November hackathon.*
-
 AI-powered tool that transforms raw client data into professional B2B SaaS marketing strategies.
+
+*Created for IU CBC's November 25' "hackathon". (Vibe) coded in ~2 hours, demo in ~10min, pitch deck in ~30min.*
+
+- [Link to demo](https://vimeo.com/1135121007?share=copy&fl=sv&fe=ci)
+- [Link to pitch deck](https://docs.google.com/presentation/d/1usuXClyhlttP7iCZhoJMPhrRsqZTmGJM)
+- [Link to challenge details](https://docs.google.com/document/d/1hOeOZ3HGMUjfnJfiB1T6DQZ2AQ270gC3gm7zt6dRc5k/edit?usp=sharing)
 
 ## Tech Stack
 
