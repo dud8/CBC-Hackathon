@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# BluePeak Strategy Generator - Development Server Launcher
+# BluePeak Workflow Engine - Development Server Launcher
 # This script ensures you're running the correct dev server
 
-echo "🚀 Starting BluePeak Strategy Generator..."
+echo "🚀 Starting BluePeak Workflow Engine..."
 echo ""
 
 # Check if Vercel CLI is installed

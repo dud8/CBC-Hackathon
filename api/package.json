@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.32.0",
+    "@anthropic-ai/sdk": "^0.68.0",
+    "formidable": "^3.5.1",
     "mammoth": "^1.8.0",
     "pdf-parse": "^1.1.1",
-    "xlsx": "^0.18.5",
-    "formidable": "^3.5.1"
+    "xlsx": "^0.18.5"
   }
 }

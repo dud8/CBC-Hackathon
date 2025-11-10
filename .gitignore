@@ -54,3 +54,43 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+~$*
+~*.tmp
+
+# Documentation backup/archive
+Docs/
+*.md.bak
+*.md.backup
+
+# Test/mock data
+mock_data/
+sample-data/
+test-data/
+
+# MacOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# API related
+api/node_modules/
+
+# IDE specific
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.idea/workspace.xml
+.idea/tasks.xml
