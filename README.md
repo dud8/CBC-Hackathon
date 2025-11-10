@@ -63,31 +63,34 @@ vercel --prod
 
 Add `ANTHROPIC_API_KEY` as an environment variable in the Vercel dashboard.
 
-## Documentation
-
-See [DOCUMENTATION.md](DOCUMENTATION.md) for:
-- Architecture details
-- File processing
-- Output format specifications
-- Testing guidelines
-- Troubleshooting
-- API costs
-
 ## Project Structure
 
 ```
-├── api/
-│   ├── strategy.js          # Serverless function
-│   ├── count-tokens.js      # Token counting
-│   └── package.json
 ├── src/
 │   ├── components/
-│   │   ├── TextInput.jsx
+│   │   ├── ClarificationDialog.jsx
 │   │   ├── FileUpload.jsx
 │   │   ├── StrategyDisplay.jsx
-│   │   └── ClarificationDialog.jsx
+│   │   └── TextInput.jsx
 │   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx
-├── vercel.json
-└── package.json
+├── api/                     # Serverless functions + helpers
+│   ├── count-tokens.js
+│   ├── file-processing.js
+│   ├── prompts.js
+│   ├── section-chat.js
+│   ├── strategy.js
+│   ├── package.json
+│   └── package-lock.json
+├── mock_data/               # Sample client uploads for local testing
+├── .env.example             # Template for required secrets
+├── dev.sh                   # Launches Vercel + frontend locally
+├── index.html               # Vite entry HTML
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── vercel.json
 ```
